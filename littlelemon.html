@@ -1,175 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Little Lemon</title>
-    <link rel="stylesheet" href="style.css1" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a href="#home" id="navbar__logo">Little Lemon</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span> <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Home</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page">About</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page"
-              >Services</a
-            >
-          </li>
-          <li class="navbar__btn">
-            <a href="#sign-up" class="button" id="signup">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Coffee Cafe</title>
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Hero Section -->
-    <div class="hero" id="home">
-      <div class="hero__container">
-        <h1 class="hero__heading">Menu<span></span></h1>
-        <h1 class="hero__heading"><span>Seasonal Deals</span></h1>
-        <p class="hero__description"></p>
-        <button class="main__btn"><a href="#">Hours of operation</a></button>
-      </div>
-    </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <!-- About Section -->
-    <div class="main" id="about">
-      <div class="main__container">
-        <div class="main__img--container">
-          <img src="littlelemonpicture.jpg"=" width= "400">
-          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
-        </div>
-        <div class="main__content">
-          <h1>Fall season limited offers</h1>
-          <h2>Loren ipsum dolor sit amet.</h2>
-          <p>Nulla eget plaerat leo.</p>
-          <button class="main__btn"><a href="#">Fusce dapibus vehicula ex at ultrices</a></button>
-        </div>
-      </div>
-    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    
 
-    <!-- Services Section -->
-    <div class="services" id="services">
-      <h1>Book a table</h1>
-      <div class="services__wrapper">
-        <div class="services__card">
-          <h2>Loren ipsum dolor sit amet</h2>
-          <p>Loren ipsum dolor sit amet</p>
-          <div class="services__btn"><button>><</button></div>
-        </div>
-        <div class="services__card">
-          <h2>Our Menu</h2>
-          <p>Loren ipsum dolor sit amet</p>
-          <div class="services__btn"><button>><</button></div>
-        </div>
-        <div class="services__card">
-          <h2>Cafe Hours</h2>
-          <p>Loren ipsum dolor sit amet</p>
-          <div class="services__btn"><button>><</button></div>
-        </div>
-        <div class="services__card">
-          <h2>More</h2>
-          <p>Loren ipsum dolor sit amet</p>
-          <div class="services__btn"><button>><</button></div>
-        </div>
-      </div>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <!-- Features Section -->
-    <div class="main" id="sign-up">
-      <div class="main__container">
-        <div class="main__content">
-          <h1>Coffee, pastries & much more</h1>
-          <h2>Loren ipsum dolor sit amet</h2>
-          <p>Loren ipsum dolor sit amet</p>
-          <button class="main__btn"><a href="#">Contact</a></button>
-        </div>
-        <div class="main__img--container">
-          <div class="main__img--card" id="card-2">
-            <i class="fas fa-users"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-  <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
-</html>  
+<div class="all-content">
+    <!--navbar start-->
 
-    <!-- Footer Section -->
-    <div class="footer__container">
-      <div class="footer__links">
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>About</h2>
-            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
-            <a href="/">Careers</a> <a href="/">Terms of Service</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>Contact</h2>
-            <a href="">Contact</a> <a href="/">Support</a>
-            <a href="/">Destinations</a>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo"><img src="/images1/logo2.jpg" alt style="margin: -5px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars" style="color: rgb(26, 16, 165); font-size: 23px;"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>Videos</h2>
-            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
-            <a href="/">Agency</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>Social Media</h2>
-            <a href="https://www.instagram.com/?hl=en">Instagram</a> <a href="https://www.facebook.com/">Facebook</a>
-            <a href="https://www.youtube.com/">Youtube</a> <a href="https://twitter.com/?lang=en">Twitter</a>
-          </div>
-        </div>
+      </nav>
+
+    <!--navbar end-->
+
+
+
+
+
+    <!-- home section start -->
+    <section id="home">
+      <div class="content">
+        <h3>A Little Coffee Cafe</h3>
+        <p>Coffee is not a drink, its a moment
+            <br>Drink Coffee  
+          </p>
+          <button id="btn">Order Now</button>
       </div>
-      <section class="social__media">
-        <div class="social__media--wrap">
-          <div class="footer__logo">
-            <a href="/" id="footer__logo">Little Lemon</a>
+
+    </section>
+    <!-- home section end -->
+
+
+
+
+    <!--menu start-->
+    <section id="menu">
+     
+        <div class="heading3">Our Menu</div>
+      </div>
+
+      <div class="container" id="container2">
+     
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/images1/l3.jfif" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  
+                </div>
+
+                <h3>Coffee</h3>
+                <p>$20 </p>
+              </div>
+            </div>
           </div>
-          <p class="website__rights">© Little Lemon 2022. All rights reserved</p>
-          <div class="social__icons">
-            <a href="https://www.facebook.com/" class="social__icon--link" target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a href="https://www.instagram.com/" class="social__icon--link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="https://www.youtube.com/" class="social__icon--link"
-              ><i class="fab fa-youtube"></i
-            ></a>
-            <a href="https://www.linkedin.com" class="social__icon--link"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="https://twitter.com/ class="social__icon--link"
-              ><i class="fab fa-twitter"></i
-            ></a>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/images1/l2.jfif" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                
+                </div>
+
+                <h3>Decaff Coffee</h3>
+                <p>$10 </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/images1/l3.jfif" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+               
+                </div>
+
+                <h3>World Coffee</h3>
+                <p>$5 </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/images1/l2.jfif" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  
+                  
+                </div>
+
+                <h3>Seasonal Coffee</h3>
+                <p>$1 </p>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-    </div>
 
-    <script src="app.js"></script>
-  </body>
-</html> 
+    </section>
+    <!--menu end-->
+       
+
+      <!--contact start-->
+      <section id="contact">
+      
+          <div class="row">
+
+          
+              <div class="heading6">Contact Us</div>
+              
+              <input type="text" class="form-control" placeholder="Your Name" aria-label="default input example"><br>
+              <input type="email" class="form-control" placeholder="Your Email" aria-label="default input example"><br>
+              <input type="number" class="form-control" placeholder="Your Phone Number" aria-label="default input example"><br>
+              <button id="contact-btn">Message</button>
+            </div>
+
+
+
+      </section>
+      <!--contact end-->
+
+
+<!-- about section start -->
+<section id="about">
+  <div class="container">
+    <div class="heading">About Us</div>
+   
+       <div class="col-md-6">
+        
+          <img src="/images1/about.jfif" alt="">
+        </div>
+       </div>
+
+       <div class="col-md-6">
+            <h3>Want to know a few great things about our coffee?</h3>
+            
+            <button id="about-btn">Read More.</button>
+       </div>
+    </div>
+  </div>
+
+</section>
+<!-- about section end -->
+
+
+        <!--footer start-->
+        <footer id="footer">
+          <div class="footer-logo text-center"><img src="/images1/logo2.jpg" alt=""></div>
+          <div class="social-links text-center">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+
+          </div>
+          <div class="credits text-center">
+            Designed By <a href="#"><span>Ibadet Azemi</span></a>
+
+          </div>
+
+          <div class="copyright text-center">
+            &copy; Copyright <strong> <span>A Little Coffee Cafe</span></strong>. All Rights reserved
+
+          </div>
+
+        </footer>
+        <!--footer end-->
+          
+
+         <a href="#" class="arrow"><i><img src="/images1/icon3.png" alt="" width="50px"></i></a>
+
+
+
+
+</div>
